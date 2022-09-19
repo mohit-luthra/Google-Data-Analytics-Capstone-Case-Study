@@ -10,7 +10,89 @@
 
 ## Introduction
 
-The project is a part of **Google Data Analytics Certification course capstone**. The scenario involves analysis of the trip data of Cyclistic bike share company.
+The project is a part of **Google Data Analytics Certification course capstone**. 
+
+
+Case Study: Cyclistic
+Case Background
+
+As a junior data analyst working in the marketing analyst team at Cyclistic (a bike-sharing company active in Chicago), I am tasked with understanding how casual riders and annual members use Cyclistic bikes differently. Casual riders consist of customers that purchase single-ride or full-day passes, whereas annual members subscribe yearly for unlimited biking access. The marketing director theorizes that the company's future success depends on maximizing the number of yearly memberships by converting casual riders into annual members. Pending executive approval, my team will be designing a new marketing strategy that pursues this idea.
+
+To inform any decision-making behind Cyclistic's new marketing strategy, the goal of this project will be to uncover and convey actionable insights.
+
+If you would like to skip everything to view the results of this study, you can view my presentation here.
+Scope of Work
+Deliverable 	Tasks
+1. Define and discuss the project 	
+
+    Producing a scope of work document
+    Framing a problem statement
+    Defining project goals and the measurements to define success by discussing the project with stakeholders and ascertaining expectations
+
+2. Extract and prepare the data for exploration 	
+
+    Identifying where data resides and its structure
+    Determining data reliability, origins, comprehensiveness, current relevance, and credibility
+    Addressing licensing, privacy, security, and accessibility concerns
+    Verifying data integrity
+    Identifying how the data helps answer the questions we're pursuing
+    Filtering and sorting the data
+
+3. Process the data for analysis 	
+
+    Research and apply the correct data manipulation tools for processing and analysis
+    Check for dirty data - in particular for data that is outdated, duplicated, incomplete, inconsistent, and inaccurate
+    Wrangle and clean the data until we can apply unbiased and representative data analytics
+
+4. Conduct a descriptive analysis 	
+
+    Organize and format the data (including useful aggregate tables)
+    Identify trends and relationships with the help of calculations, data aggregations, and relevant visuals
+    Provide a summary of the analysis
+
+5. Share key findings with stakeholders 	
+
+    Create an effective and accessible presentation that answers the original business problem with compelling storytelling
+
+6. Act on key findings 	
+
+    Based on the analysis conducted, provide three recommendations for the marketing campaign to move forward with
+
+Deliverable: Define and discuss the project
+Business Background
+
+Business Model:
+
+    Product: bike-sharing geotracked and network locked bikes across Chicago
+    Customer types and revenue model: members (annual subscribers) and casual riders (single-ride and full-day purchasers)
+    Competitive advantages: Bicycle variety (broad consumer segments) and pricing flexibility
+
+Product Background:
+
+    5,824 bicycles and 692 docking stations
+    More than 50% of riders select traditional bikes
+    8% of riders opt for the assistive bike options
+    30% of users bike to commute to work each day
+    Users are more likely to ride for leisure
+    Casual riders have chosen Cyclistic for their mobility needs
+
+Discussing Goals and Expectations
+Stakeholders 	Expectations 	Project/Business Goals
+Cyclistic Executive Team 	Compelling, relevant, and straightforward insights to inform data-driven marketing decisions 	Implementing strategic initiatives to promote business growth
+Lily Moreno, Director of Marketing 	Evidence to back up her theory and marketing recommendations 	Convert a sizable group of casual riders to become annual members
+Marketing analytics team 	Uncovering the differences and motivations behind different customer types 	Produce data-driven and actionable results to inform business decision making
+Problem Statement
+
+Cyclistic is faced with an uncertain future and is no longer able to solely rely on its traditional marketing strategies of raising general awareness and appealing to a variety of customer needs. In the interest of company growth, the director of marketing believes that Cyclistic should capitalize on the lucrative profit margins of annual subscribers by marketing to existing casual customers and persuading them to become yearly subscribers. If that strategy is plausible, a well-executed marketing campaign may lead to more sustainable long-term revenue. To that end, we need to analyze how and why Cyclistic casual bikers and members differ to weigh any evidence, opportunities, and barriers to any future marketing strategy.
+
+Scenario
+You are a junior data analyst working in the marketing analyst team at Cyclistic, a bike-share company in Chicago. The director of marketing believes the company’s future success depends on maximizing the number of annual memberships. Therefore, your team wants to understand how casual riders and annual members use Cyclistic bikes differently. From these insights, your team will design a new marketing strategy to convert casual riders into annual members. But first, Cyclistic executives
+must approve your recommendations, so they must be backed up with compelling data insights and professional data visualizations.
+Characters and teams
+● Cyclistic: A bike-share program that features more than 5,800 bicycles and 600 docking stations. Cyclistic sets itself apart by also offering reclining bikes, hand tricycles, and cargo bikes, making bike-share more inclusive to people with disabilities and riders who can’t use a standard two-wheeled bike. The majority of riders opt for traditional bikes; about 8% of riders use the assistive options. Cyclistic users are more likely to ride for leisure, but about 30% use them to commute to work each day.
+● Lily Moreno: The director of marketing and your manager. Moreno is responsible for the development of campaigns and initiatives to promote the bike-share program. These may include email, social media, and other channels.
+● Cyclistic marketing analytics team: A team of data analysts who are responsible for collecting, analyzing, and reporting data that helps guide Cyclistic marketing strategy. You joined this team six months ago and have been busy learning about Cyclistic’s mission and business goals — as well as how you, as a junior data analyst, can help Cyclistic achieve them.
+● Cyclistic executive team: The notoriously detail-oriented executive team will decide whether to approve the recommended marketing program. The scenario involves analysis of the trip data of Cyclistic bike share company.
 
 The company has two models for availing service: individual passes which are called "casual" riders and annual subscriptions called "member" riders.
 The company operates in Chicago with around 6000 bicycles at 700 stations.
